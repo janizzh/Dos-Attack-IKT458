@@ -1,7 +1,7 @@
 import paho.mqtt.client as mqtt
 import threading
 
-BROKER_IP = "10.2.8.52"
+BROKER_IP = "172.20.10.7"
 BROKER_PORT = 1883
 TOPIC = "iot/device/data"
 
