@@ -1,9 +1,9 @@
 import paho.mqtt.client as mqtt
 import threading
 
-BROKER_IP = "172.20.10.7"
+BROKER_IP = "10.0.0.18"
 BROKER_PORT = 1883
-TOPIC = "iot/device/data"
+TOPIC = "raspberry_pi/test"
 
 def send_messages():
     client = mqtt.Client()
